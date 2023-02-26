@@ -154,7 +154,7 @@ input, select, textarea {
 	}
 
 	h2, h3, h4, h5, h6 {
-		font-weight: 700;
+		font-weight: 600;
 	}
 
 	h1 {
@@ -164,7 +164,7 @@ input, select, textarea {
 	}
 
 		h1 strong {
-			font-weight: 700;
+			font-weight: 600;
 		}
 
 	h2 {
