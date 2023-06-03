@@ -2052,10 +2052,6 @@ input, select, textarea {
     margin-bottom: 0;
     list-style: none;
     padding-left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
 }
 
 #nav li {
@@ -2136,10 +2132,14 @@ input, select, textarea {
     #nav ul {
         display: none;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         width: 100%;
         padding: 0;
         margin: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 100%;
+        left: 0;
     }
 
     #nav ul.active {
@@ -2154,6 +2154,8 @@ input, select, textarea {
         display: flex;
     }
 }
+
+
 
 
 
