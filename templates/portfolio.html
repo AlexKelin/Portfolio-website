@@ -1,101 +1,226 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html style="background: #202B35">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta property="og:title" content="A portfolio website of a python developer and a prompt engineer Alex Kelin">
+    <meta property="og:description" content="Look up relevant projects and experience of Alex Kelin - a python developer">
+    <meta property="og:type" content="article">
+<meta property="og:url" content="https://guidance-ai.com/portfolio">
+    <meta name="Alex Kelin" property="og:image" content=".../static/images/snake.png"/>
+    <title>Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="title" content="A portfolio website of a python developer Alex Kelin">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <style>
+        #top {
+            overflow: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="../static/css/main.css" />
+</head>
+<body class="is-preload">
 
-    <!-- Portfolio -->
-    <article id="projects" class="" style="background: #202B35" >
-        <br><br>
-        <div class="container" >
-            <header>
-                <h2 style="color: #98D1CE; alignment: left; font-size: 320%; font-style: normal;">My Projects</h2>
-                <h2 style="color: #f4f4f4; font-style: normal">Here are some <a style="color: #EDB54B; font-style: normal">python</a> projects I made recently</h2>
-            </header>
-            <div class="row" >
-                <div class="col-4 col-6-medium col-12-small" >
-                    <article class="box style2" style="background: #1E1E1D; height: 870px" >
-                        <a href="https://github.com/AlexKelin/NLP_Project" target="_blank" class="image featured"><img src="../static/images/NLP.png" alt="" height="420"/></a>
+	<!-- Nav -->
+	<nav id="nav" style="background: #1E1E1D">
+		<div class="icons">
+			<a href="https://www.linkedin.com/in/alexkelin/" class="icon brands fa-linkedin-in" style="color: #EDB54B;"><span class="label">LinkedIn</span></a>
+			<a href="https://github.com/AlexKelin" class="icon brands fa-github" style="color: #D3EBE9;"><span class="label">Github</span></a>
+			<a href="https://www.facebook.com/alex.kelin.7" class="icon brands fa-facebook-f" style="color: #33859D;"><span class="label">Facebook</span></a>
+		</div>
+		<input style="justify-content: flex-end" type="checkbox" id="menu-toggle" />
+		<label for="menu-toggle" class="menu-btn">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</label>
+		<ul class="container" id="menu-items" style="font-family: 'Open Sans';">
+			<li><a href="index2.html" style="color: #EDB54B; font-style: normal;">Home</a></li>
+			<li><a href="portfolio.html" style="color: #EDB54B; font-style: normal;">Portfolio</a></li>
+			<li><a href="#services" style="color: #EDB54B; font-style: normal;">Services</a></li>
+			<li><a href="#contact" style="color: #EDB54B; font-style: normal;">Contact</a></li>
+		</ul>
+	</nav>
+
+	<!-- Home -->
+	<section id="top" class="wrapper style1" style="background: #202B35; ">
+		<div class="container" style="background: #202B35; margin-top: 20px; font-family:'Open Sans';">
+			<div class="row">
+				<div class="col-4 col-5-large col-12-medium" style="display: flex; align-items: normal;">
+					<span class="image fit"><img src="../static/images/snake.png" alt="" style="max-width: 100%; height: auto; border-radius: 50%;"></span>
+				</div>
+				<div class="col-8 col-7-large col-12-medium" style="color: #f4f4f4;font-size: 90%">
+					<header>
+						<h1 style="margin-top: 0; color: #D3EBE9;padding: 8px;">
+							Portfolio
+						</h1>
+					</header>
+					<div style="font-style: normal; font-size: 100%; word-spacing: normal;padding: 8px;margin-top: -20px">
+						<h2 style="color: #EDB54B; font-weight: normal; line-height: 1.0;"><span style="color: #26A98B">Coding</span> Projects</h2>
+						<p style="line-height: 1.3; font-size: 120%; text-align: justify; ">Explore my Python projects showcasing my skills in AI, web development, and data processing. Experience innovative solutions solving real-world problems with Python's creative possibilities.     </p>
+						<h2 style="color: #EDB54B; font-weight: normal; line-height: 1.0;"><span style="color: #26A98B">Python </span> Worksheets</h2>
+						<p style="line-height: 1.3; font-size: 120%;text-align: justify; ">Sharpen your Python programming skills with my concise worksheets. Enhance your understanding and proficiency in topics like list comprehension, dictionary comprehension, and lambda functions. Download and master Python through practical exercises.</p>
+						<h2 style="color: #EDB54B; font-weight: normal; line-height: 1.0;"><span style="color: #26A98B">Project</span> Unbound</h2>
+						<p style="line-height: 1.3; font-size: 120%;text-align: justify;">I'm the founder of Unbound, an ambitious startup project revolutionizing career guidance. Our algorithm matches users based on their unique "Career DNA," incorporating their individual traits, interests, skills, and academic performance. We empower individuals to unlock their full potential, going beyond traditional skill matching.<div style="margin-bottom: 70px;">
+							<br>
+                        <div>
+							<a href="#projects" class="button large scrolly" style="background: #26A98B; color: #1E1E1D;font-size: 120%;font-style: normal;letter-spacing: 0.5px; padding: 10px 20px; border-radius: 4px;">Projects</a>
+                            <a href="services.html" class="button large scrolly" style="background: #26A98B; color: #1E1E1D;font-size: 120%; margin-left: 40px; font-style: normal;letter-spacing: 0.5px; padding: 10px 20px; border-radius: 4px;">Services</a>
+
+                        </div>
+                    </div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <!-- Projects -->
+		<section id="projects" class="wrapper style1" style="background: #202B35; font-family: 'Open Sans';padding: 6px">
+			<br>
+			<div class="container" style="background: #202B35">
+				<div class="row" style="align-items: flex-start; display: flex">
+					<div class="col-1-large col-7-large col-12-medium" style="color: #f4f4f4">
+						<header>
+                            <h2 style="color: #EDB54B; font-size: 220%; font-weight: normal; line-height: 1.2;margin-bottom: -10px;margin-top: -10px;"><span style="color: #26A98B"> Python</span> coding projects</h2>
+						</header>
+						<p style="margin-top: -30px;text-align: justify; padding: 8px; font-size: 120%; ">Discover a diverse collection of Python coding projects that showcase expertise in Python, NLP, and algorithm implementation, highlighting practical applications and versatility in various domains.</p>
+						<div class="row" >
+                <div class="col-4 col-6-medium col-12-small" " >
+                    <article class="box style2" style="background: #1E1E1D; height: 750px" >
+                        <a href="https://github.com/AlexKelin/NLP_Project" target="_blank" class="image featured"><img src="../static/images/NLP.png" alt="" height="370"/></a>
                         <h3 style="background: #1E1E1D; color: #EDB54B; font-style: normal"><a href="https://github.com/AlexKelin/NLP_Project" target="_blank">NLP based text generator</a></h3>
-                        <p style="background: #1E1E1D; color: #D3EBE9; font-style: normal">From any input .txt file, the program creates a library that is used to generate text. Additionally, the program offers to create text with a particular word entity or name.
+                        <p style="background: #1E1E1D; color: #D3EBE9; font-style: normal; text-align: justify">From any input .txt file, the program creates a library that is used to generate text. Additionally, the program offers to create text with a particular word entity or name.
                             The code is written in python and uses a Spacy module for text processing.
                             <br>
                         </p>
-                        <br><a href="https://github.com/AlexKelin/NLP_Project" target="_blank" class="button large scrolly" style="background: #26A98B; font-size: small; color: #EDB54B; font-style: normal" >Check code</a>
-
+<a href="https://github.com/AlexKelin/NLP_Project" target="_blank" class="button large scrolly" style="background: #26A98B; color: #1E1E1D; font-size: small; font-style: normal; padding: 10px 20px; border-radius: 4px; margin-bottom: 10px;">Check code</a>
                     </article >
                 </div>
                 <div class="col-4 col-6-medium col-12-small">
-                    <article class="box style2" style="background: #1E1E1D; height: 870px">
-                        <a href="https://github.com/AlexKelin/Exit_The_Maze" class="image featured"><img src="../static/images/Maze.png" alt="" height="420"/></a>
+                    <article class="box style2" style="background: #1E1E1D; height: 750px">
+                        <a href="https://github.com/AlexKelin/Exit_The_Maze" class="image featured"><img src="../static/images/Maze.png" alt="" height="370"/></a>
                         <h3 style="background: #1E1E1D; color: #EDB54B; font-style: normal; text-align: justify-all"><a href="https://github.com/AlexKelin/Exit_The_Maze">Exit the maze</a></h3>
-                        <p style="background: #1E1E1D; color: #D3EBE9; font-style: normal"> This program generates an n*m matrix with empty fields in each row based on the user's input of the dimensions and probability coefficient. Its primary objective is to determine whether a path exists from the top layer to the bottom of the matrix.
+                        <p style="background: #1E1E1D; color: #D3EBE9; font-style: normal; text-align: justify"> This program generates an n*m matrix with empty fields in each row based on the user's input of the dimensions and probability coefficient. Its primary objective is to determine whether a path exists from the top layer to the bottom of the matrix.
                         </p>
-                        <br><a href="https://github.com/AlexKelin/Exit-the-maze" target="_blank" class="button large scrolly" style="background: #26A98B; font-size: small; color: #EDB54B; font-style: normal;" >Check code</a>
-                    </article>
+<a href="https://github.com/AlexKelin/Exit_The_Maze" target="_blank" class="button large scrolly" style="background: #26A98B; color: #1E1E1D; font-size: small; font-style: normal; padding: 10px 20px; border-radius: 4px; margin-bottom: 20px;">Check code</a>                    </article>
                 </div>
                 <div class="col-4 col-6-medium col-12-small">
-                    <article class="box style2" style="background: #1E1E1D; height: 870px">
-                        <a href="https://github.com/AlexKelin/Webscraper" target="_blank" class="image featured"><img src="../static/images/Web.png" alt="" height="420"/></a>
+                    <article class="box style2" style="background: #1E1E1D; height: 750px">
+                        <a href="https://github.com/AlexKelin/Webscraper" target="_blank" class="image featured"><img src="../static/images/Web.png" alt="" height="370"/></a>
                         <h3 style="background: #1E1E1D; color: #EDB54B; font-style: normal"><a href="https://github.com/AlexKelin/Webscraper" target="_blank">Web scraper</a></h3>
-                        <p style="background: #1E1E1D; color: #D3EBE9;  font-style: normal">This Python program allows the user to search for video card models on an online store, retrieve the prices and links for the products, and store the results in an SQL database.</p><br>
-                        <a href="https://github.com/AlexKelin/Webscraper" target="_blank" class="button large scrolly" style="background: #26A98B; font-size: small; color: #EDB54B ;font-style: normal " >Check code</a>
-                    </article>
+                        <p style="background: #1E1E1D; color: #D3EBE9;  font-style: normal; text-align: justify">This Python program allows the user to search for video card models on an online store, retrieve the prices and links for the products, and store the results in an SQL database. Implemented with BeautifulSoup package.</p><br>
+  <a href="https://github.com/AlexKelin/Webscraper" target="_blank" class="button large scrolly" style="background: #26A98B; color: #1E1E1D; font-size: small; font-style: normal; padding: 10px 20px; border-radius: 4px; margin-bottom: 20px;">Check code</a>                    </article>
+
                 </div>
+                        <a href="#worksheets" class="button large scrolly" style="background: #26A98B; color: #1E1E1D;font-size: 120%;font-style: normal;letter-spacing: 0.5px; padding: 10px 20px; border-radius: 4px; margin-top: 40px; margin-left: 30px">Worksheets</a>
+
+            </div>
+					</div>
+				</div>
+
+            </div>
+			</section>
+
+
+<!-- Worksheets -->
+<section id="worksheets" class="wrapper style1" style="background: #202B35">
+    <div class="container" style="background: #202B35;padding: 6px; font-family: 'Open Sans'">
+        <div class="row" style="align-items: flex-start; display: flex">
+            <div class="col-8 col-7-large col-12-medium" style="color: #f4f4f4">
+                <header>
+                    <br>
+                    <h1 style="color: #EDB54B; font-size: 220%; font-weight: normal; line-height: 1.2; margin-bottom: -10px; margin-top: -10px;"><span style="color: #26A98B;">Python</span> Worksheets</h1>
+                </header>
+                <div style="align-content: flex-start; display: flex; font-style: normal; font-size: 120%">
+                    <br>
+                    <p>Do you practice <b style="color: #EDB54B;">short</b> and <b style="color: #EDB54B;">effective</b> code? <br><br>Explore a variety of <span style="color: #26A98B">Python</span> worksheets available on the website, covering topics such as list comprehension, dictionary comprehension, and lambda functions.</p><br>
+
+                </div>
+<div class="row" style="margin-top: 30px">
+                    <div class="col-4 col-6-medium col-12-small" style="width: 200px">
+                        <article class="box style2" style="background: #1E1E1D; height: 400px;">
+                            <a href="../static/assets/LC_worksheet.pdf" download="LC_worksheet.pdf" target="_blank" class="image featured"><img src="../static/images/list2.png" alt="" height="250" width="600" style="overflow: hidden" /></a>
+                            <h3 style="background: #1E1E1D; color: #EDB54B; font-style: normal; margin-top: -25px"><b style="color: #EDB54B;font-size: medium">List comprehension</b></h3>
+                            <a href="../static/assets/LC_worksheet.pdf" download="LC_worksheet.pdf" target="_blank" class="button large scrolly" style="background: #26A98B; color: #1E1E1D; font-size: small; font-style: normal; padding: 10px 20px; border-radius: 4px; margin-bottom: 20px;">Download</a>
+                        </article>
+                    </div>
+                    <div class="col-4 col-6-medium col-12-small" style="width: 200px">
+                        <article class="box style2" style="background: #1E1E1D; height: 400px;">
+                            <a href="../static/assets/DC_worksheet.pdf" download="DC_worksheet.pdf" target="_blank" class="image featured"><img src="../static/images/DC-img.png" alt="" height="250" width="500" /></a>
+                            <h3 style="background: #1E1E1D; color: #EDB54B; font-style: normal; text-align: justify-all; margin-top: -25px"><b style="color: #EDB54B; font-size: medium">Dict comprehension</b></h3>
+                            <a href="../static/assets/DC_worksheet.pdf" download="DC_worksheet.pdf" target="_blank" class="button large scrolly" style="background: #26A98B; color: #1E1E1D; font-size: small; font-style: normal; padding: 10px 20px; border-radius: 4px; margin-bottom: 20px;">Download</a>
+                        </article>
+                    </div>
+                    <div class="col-4 col-6-medium col-12-small" style="width: 200px">
+                        <article class="box style2" style="background: #1E1E1D; height: 400px;">
+                            <a href="../static/assets/Lambda_worksheet.pdf" download="Lambda_worksheet.pdf" target="_blank" class="image featured"><img src="../static/images/lambda2.png" alt="" height="250" width="500" /></a>
+                            <h3 style="background: #1E1E1D; color: #EDB54B; font-style: normal; margin-top: -25px"><b style="color: #EDB54B;font-size: medium">Lambda functions</b></h3>
+                            <a href="../static/assets/Lambda_worksheet.pdf" download="Lambda_worksheet.pdf" target="_blank" class="button large scrolly" style="background: #26A98B; color: #1E1E1D; font-size: small; font-style: normal; padding: 10px 20px; border-radius: 4px; margin-bottom: 20px;">Download</a>
+                        </article>
+                    </div>
+                    <div class="col-4 col-6-medium col-12-small" style="width: 200px">
+                        <article class="box style2" style="background: #1E1E1D; height: 400px;">
+                            <a href="../static/assets/Ultimate_worksheet.pdf" download="Ultimate_worksheet.pdf" target="_blank" class="image featured"><img src="../static/images/Ult.png" alt="" height="250" width="500" /></a>
+                            <h3 style="background: #1E1E1D; color: #EDB54B; font-style: normal; margin-top: -25px"><b style="color: #EDB54B;font-size: medium">Ultimate worksheet</b></h3>
+                            <a href="../static/assets/Ultimate_worksheet.pdf" download="Ultimate_worksheet.pdf" target="_blank" class="button large scrolly" style="background: #26A98B; color: #1E1E1D; font-size: small; font-style: normal; padding: 10px 20px; border-radius: 4px; margin-bottom: 20px;">Download</a>
+                        </article>
+                    </div>
+</div>
+                <div style="margin-top: 50px; font-size: 120%"><p>Make sure to check out my <a href="https://github.com/AlexKelin/" style="color: #EDB54B">GitHub</a> repository for more Python worksheets and coding resources. Get hands-on practice and enhance your Python skills today. </p></div>
+            							<a href="#Unbound" class="button large scrolly" style="background: #26A98B; color: #1E1E1D;font-size: 120%;font-style: normal;letter-spacing: 0.5px; padding: 10px 20px; border-radius: 4px;">Unbound</a>
+
+            </div>
+                <div></div>
+
             </div>
         </div>
-    </article>
+    </div>
+</section>
 
-    <!-- Worksheets -->
-    <article id="worksheets" class="wrapper style1" style="background: #202B35">
-        <div class="container" style="background: #202B35">
-            <div class="row" style="align-items: flex-start; display: flex">
-                <div class="col-8 col-7-large col-12-medium" style="color: #f4f4f4">
-                    <header>
-                        <br>
-                        </h1>
-                        <h1><h style="color: #EDB54B; alignment: left; font-size: 100%;font-style: normal"><b style="color: #98D1CE; font-style: normal">Python </b>Worksheets</h>
-                        </h1>
-                    </header>
-                    <div style="align-content: flex-start; display: flex; font-style: normal">
-                        <br>
-                        <p style=""> Do you practice <b style="color: #EDB54B;">short</b> and <b style="color: #EDB54B;">effective</b> code? <br><br>Check out my Python worksheets:</p>
-                        <br>
-                    </div>
-                    <div class="row" >
-                        <div class="col-4 col-6-medium col-12-small" >
-                            <article class="box style2" style="background: #1E1E1D; height: 500px;" >
-                                <a href="../static/assets/LC_worksheet.pdf" download="LC_worksheet.pdf"  target="_blank" class="image featured"><img src="../static/images/LC-img.png" alt="" height="300" width="600"/></a>
-                                <h3 style="background: #1E1E1D; color: #EDB54B; font-style: normal"><b style="color: #EDB54B;font-size: medium">List comprehension</b></h3>
-                                <p style="background: #1E1E1D; color: #D3EBE9; font-style: normal">
-                                </p><a href="../static/assets/LC_worksheet.pdf" download="LC_worksheet.pdf"  target="_blank" class="button large scrolly" style="background: #26A98B; font-size: small; color: #EDB54B; font-style: normal" >Download</a>
-                            </article >
-                        </div>
-                        <div class="col-4 col-6-medium col-12-small">
-                            <article class="box style2" style="background: #1E1E1D; height: 500px;">
-                                <a href="../static/assets/DC_worksheet.pdf" download="DC_worksheet.pdf" class="image featured"><img src="../static/images/DC-img.png" alt="" height="300" width="500"/></a>
-                                <h3 style="background: #1E1E1D; color: #EDB54B; font-style: normal; text-align: justify-all"><b style="color: #EDB54B; font-size: medium"> Dict comprehension</b></h3>
-                                <p style="background: #1E1E1D; color: #D3EBE9; font-style: normal"> </p>
-                                <a href="../static/assets/DC_worksheet.pdf" download="DC_worksheet.pdf" target="_blank" class="button large scrolly" style="background: #26A98B; font-size: small; color: #EDB54B; font-style: normal;" >Download</a>
-                            </article>
-                        </div>
-                        <div class="col-4 col-6-medium col-12-small">
-                            <article class="box style2" style="background: #1E1E1D; height: 500px;">
-                                <a href="../static/assets/Lambda_worksheet.pdf" download="Lambda_worksheet.pdf" target="_blank" class="image featured"><img src="../static/images/Lambda-img.png" alt="" height="300" width="500"/></a>
-                                <h3 style="background: #1E1E1D; color: #EDB54B; font-style: normal"><b style="color: #EDB54B;font-size: medium">Lambda functions</b></h3>
-                                <p style="background: #1E1E1D; color: #D3EBE9;  font-style: normal"></p>
-                                <a href="../static/assets/Lambda_worksheet.pdf" download="Lambda_worksheet.pdf" target="_blank" class="button large scrolly" style="background: #26A98B; font-size: small; color: #EDB54B ;font-style: normal " >Download</a>
-                            </article>
-                        </div>
-                    </div>
-                    <div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-</head>
-<body>
+	<!-- Unbound -->
+	<section id="Unbound" class="wrapper style1" style="background: #202B35;">
+		<div class="container" style="background: #202B35; margin-top: 20px; font-family:'Open Sans';">
+			<div class="row">
+				<div class="col-4 col-5-large col-12-medium" style="display: flex; align-items: normal;">
+					<span class="image fit"><img src="../static/images/0_3.png" alt="" style="max-width: 100%; height: auto; border-radius: 50%;"></span>
+				</div>
+				<div class="col-8 col-7-large col-12-medium" style="color: #f4f4f4;font-size: 90%">
+					<header>
+						<h1 style="margin-top: 0; color: #26A98B;padding: 8px;">
+							Project <span style="color: #EDB54B">Unbound</span>
+						</h1>
+					</header>
+					<div style="font-style: normal; font-size: 100%; word-spacing: normal;padding: 8px;margin-top: -20px">
+						<h2 style="color: #EDB54B; font-weight: normal; line-height: 1.0; margin-top: 20px"><span style="color: #ffffff">Innovative Startup</span> </h2>
+                        <p style="line-height: 1.3; font-size: 120%; text-align: justify; "><a href=" href=https://unboundway.com/">Unbound</a> is an innovative venture focused on providing a comprehensive platform for enlightened career exploration. Our unique matching algorithm, backed by the concept of 'Career DNA', enables young career seekers to make informed decisions about their future career paths. <br><br>Unbound achieves this by offering exclusive video content, examining their academic records and personal traits, and matching these attributes to the requirements of various professions.   </p>
 
-</body>
-</html>
+                        <p style="line-height: 1.3; font-size: 120%; text-align: justify; ">At the heart of Unbound's mission is the goal to democratize understanding of various professions, ensuring equal opportunities for all. Our platform mitigates the risk of unsuitable career choices, promotes informed decision-making, and fosters academic and career success. In essence, Unbound seeks to help individuals decipher their unique 'Career DNA' and unlock their true potential.
+ </p>
+
+                        <div>
+                            <br>
+<br></div>
+                    </div>
+                   <a href="services.html" class="button large scrolly" style="background: #26A98B; color: #1E1E1D;font-size: 120%;font-style: normal;letter-spacing: 0.5px; padding: 10px 20px; border-radius: 4px;">Services</a>
+
+                    <br><br><br><br><br>
+
+					</div>
+				</div>
+                    					<footer>
+						<em style="color: #f4f4f4;">&copy; All rights reserved <br>Made by Alex Kelin <br>2023</em>
+					</footer>
+			</div>
+
+		</div>
+	</section>
+			<!-- Scripts -->
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+			<script src="../static/js/jquery.scrolly.min.js"></script>
+			<script src="../static/js/jquery.scrollex.min.js"></script>
+			<script src="../static/js/browser.min.js"></script>
+			<script src="../static/js/breakpoints.min.js"></script>
+			<script src="../static/js/util.js"></script>
+			<script src="../static/js/main.js"></script>
+		</body>
+	</html>
