@@ -2136,7 +2136,9 @@ input, select, textarea {
     .menu-btn {
         display: block;
     }
-
+    #menu-toggle {
+        display: none;
+    }
     #nav ul {
         display: none;
         flex-direction: column;
