@@ -16,7 +16,7 @@ def portfolio():
 
 
 @app.route('/services')
-def portfolio():
+def services():
     return render_template("services.html")
 
 
