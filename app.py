@@ -15,6 +15,12 @@ def portfolio():
     return render_template("portfolio.html")
 
 
+@app.route('/services')
+def portfolio():
+    return render_template("services.html")
+
+
+
 if __name__ == '__main__':
     from waitress import serve
 
