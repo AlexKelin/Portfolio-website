@@ -2137,7 +2137,9 @@ input, select, textarea {
         display: block;
     }
     #menu-toggle {
-        display: none;
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
     }
     #nav ul {
         display: none;
