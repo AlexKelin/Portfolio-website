@@ -2114,7 +2114,8 @@ input, select, textarea {
 .menu-btn {
     display: none;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 0px;
+	float: right;
 }
 
 .menu-btn .bar {
