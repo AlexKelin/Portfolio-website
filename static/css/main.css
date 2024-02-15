@@ -1638,7 +1638,6 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			width: 100%;
 		}
 
 		.image.fit {
@@ -1917,7 +1916,7 @@ input, select, textarea {
 	.box {
 		background: #fff;
 		text-align: center;
-		padding: 2em;
+		padding: 10px;
 	}
 
 		.box.style1 {
@@ -2524,3 +2523,30 @@ input, select, textarea {
 					}
 
 	}
+.col-4 {
+    width: 100%; /* For large screens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	padding: 5px;
+}
+@media screen and (max-width: 1024px) { /* Adjust breakpoint as needed */
+    .col-6-medium {
+        width: 50%;
+    }
+}
+.box.style2 img {
+    width: 100%; /* Ensure the image always fills the width of the container */
+    height: auto; /* Maintain the image's aspect ratio */
+    object-fit: cover; /* Cover the container with the image without distorting it */
+}
+
+
+@media screen and (max-width: 1280px) {
+    .box.style2 {
+        padding: 1em; /* Reduced padding */
+    }
+}
+.box.style2 {
+    overflow-y: auto; /* Adds vertical scrollbar if content overflows */
+}
